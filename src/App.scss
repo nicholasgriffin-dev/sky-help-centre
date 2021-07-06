@@ -41,7 +41,7 @@ ul.pages_list {
     border: 1px solid #959494;
     cursor: pointer;
 
-    .active_page {
+    &.active_page {
       background: #fff;
     }
   }
