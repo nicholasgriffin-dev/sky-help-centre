@@ -14,31 +14,6 @@
   color: #222;
 }
 
-ul.pages_list {
-  display: flex;
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-}
-
-ul.pages_list li {
-  width: 100%;
-  text-align: center;
-  background: #ccc;
-  border: 1px solid #959494;
-  cursor: pointer;
-}
-
-ul.pages_list li.active_page {
-  background: #fff;
-}
-
-.HeroSearch_Contents {
-  color: #fff;
-}
-
 .HeroSearch_Contents {
   color: #fff;
 }
@@ -49,4 +24,25 @@ ul.pages_list li.active_page {
 
 #SearchHero {
   min-height: 500px;
+}
+
+ul.pages_list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+
+  li {
+    width: 100%;
+    text-align: center;
+    background: #ccc;
+    border: 1px solid #959494;
+    cursor: pointer;
+
+    .active_page {
+      background: #fff;
+    }
+  }
 }
