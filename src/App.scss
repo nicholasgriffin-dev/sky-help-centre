@@ -1,0 +1,52 @@
+@import "sky-toolkit-core/all";
+
+@import "sky-toolkit-ui/components/typography";
+@import "sky-toolkit-ui/components/buttons";
+@import "sky-toolkit-ui/components/forms";
+@import "sky-toolkit-ui/components/shine";
+@import "sky-toolkit-ui/components/hero";
+@import "sky-toolkit-ui/components/overlay";
+@import "sky-toolkit-ui/components/spinner";
+@import "sky-toolkit-ui/components/tile";
+
+#HeroSearch {
+  padding: 20px;
+  color: #222;
+}
+
+ul.pages_list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+ul.pages_list li {
+  width: 100%;
+  text-align: center;
+  background: #ccc;
+  border: 1px solid #959494;
+  cursor: pointer;
+}
+
+ul.pages_list li.active_page {
+  background: #fff;
+}
+
+.HeroSearch_Contents {
+  color: #fff;
+}
+
+.HeroSearch_Contents {
+  color: #fff;
+}
+
+.HeroSearch_Contents_Logo_Wrap {
+  margin-bottom: 20px;
+}
+
+#SearchHero {
+  min-height: 500px;
+}
